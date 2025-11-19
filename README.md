@@ -6,21 +6,20 @@ To write a python program to find the rank of a matrix
 2. 	Anaconda – Python 3.7 Installation / Moodle-Code Runner
 ## Algorithm:
 ### Step 1: first import numpy using import numpy as np
-### Step 2: then create a array with the values
+### Step 2: then create a array with values
 ### Step 3: Using the np.linalg.matrix_rank(), we can find the rank of the given matrix.
-### Step 4: we found the inverse of a array using  numpy
+### Step 4: thus we found the rank of matrix using numpy
 ## Program:
 ```
-#Program to find the inverse of a matrix.
+#Program to find the rank of a matrix.
 #Developed by: ASHWIN BAALAJI V K
 #RegisterNumber:25011987
 import numpy as np
-a=np.array([[1,0,3],[-1,2,-2],[2,3,-1]])
-rank=np.linalg.inv(a)
+A=np.array([[3,2,5],[1,1,2],[3,3,6]])
+rank=np.linalg.matrix_rank(A)
 print(rank)
-
 ```
-## Output:<img width="1917" height="1041" alt="Screenshot 2025-11-19 112927" src="https://github.com/user-attachments/assets/6adeff6f-ad9a-4015-a950-7e08f80007ba" />
+## Output: <img width="1906" height="1049" alt="Screenshot 2025-11-19 111440" src="https://github.com/user-attachments/assets/e1c8ea03-45a2-4cfc-b9cc-be5a192f0839" />
 
 ## Result:
 Thus the rank for the given matrix is successfully solved by  using a python program.
